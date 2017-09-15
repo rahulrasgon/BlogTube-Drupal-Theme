@@ -1,0 +1,19 @@
+name: BlogTube
+type: theme
+description: 'Basic Premium Blog theme for Bloggers'
+base theme: classy
+libraries:
+  - personalblog/global-styling
+regions:
+  header_top: 'Header Top'
+  header: 'Header'
+  header_bottom: 'Header Bottom'
+  content: 'Content'
+  content_bottom: 'Content Bottom'
+  footer_top: 'Footer Top'
+  footer: 'Footer'
+stylesheets-remove:
+  - 'core/assets/vendor/normalize-css/normalize.css'
+
+core: '8.x'
+project: 'drupal'
